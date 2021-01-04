@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Projekt 7</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="site-header sticky-top py-2">
+    <div class="container d-flex flex-column flex-md-row justify-content-between">
+      <a class="py-2" href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+            <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+          </svg>
+      </a>
+      <a class="py-2 d-none d-md-inline-block" href="#">Usługi</a>
+      <a class="py-2 d-none d-md-inline-block" href="#portfolio">Portfolio</a>
+      <a class="py-2 d-none d-md-inline-block" href="#kontakt">Kontakt</a>
+    </div>
+  </nav>
+  <div class="position-relative overflow-hidden p-3 p-md-5 text-center main">
+    <div class="col-md-5 p-lg-5 mx-auto my-5">
+        <h1 class="display-3 text-light font-weight-lighter">MERZIE</h1>
+        <p class="lead font-weight-normal text-light">Junior Frontend Developer</p>
+    </div>
+  </div>
+  <div class="d-md-flex flex-md-equal w-100">
+    <div class="infosquare  pt-3 px-3 pt-md-3 py-5 px-md-5 text-center text-white overflow-hidden">
+      <div class="my-1 py-1">
+        <h2 class="display-5">HTML & CSS & JS</h2>
+        <p class="lead"> Oferuję usułgi wykonywania stron internetowych przy użyciu języka HTML, CSS oraz JavaScript</p>
+        <img src="https://www.svgrepo.com/show/294145/code.svg" alt="html" width="175">
+    </div>
+    </div>
+    <div class="infosquare  pt-3 px-3 pt-md-3 py-5  px-md-5 text-center text-white overflow-hidden">
+      <div class="my-1 py-1">
+        <h2 class="display-5">BOOTSTRAP</h2>
+        <p class="lead">Oferuję usługi wykonywania stron internetowych przy użyciu framework'u Bootstrap</p>
+        <img src="https://www.svgrepo.com/show/303293/bootstrap-4-logo.svg" alt="bootstrap" width="175">
+       </div>
+    </div>
+  </div>
+  <div class="portfolio py-3 text-center" id='portfolio'>
+    <h1 class="text-uppercase">Portfolio</h1>
+    <p class="lead">Zbiór moich prac</p>
+        <div class="py-2 mx-5 flex-md-equal overflow-hidden">
+            <div class="row my-5">
+                <div class="col-md-6 col-lg-6">
+                   <a href=""><img src="img/ex1.jpg" alt="przyklad1" class="col-md-12 col-lg-6"></a> 
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <a href=""><img src="img/ex1.jpg" alt="przyklad1" class="col-md-12 col-lg-6"></a>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col-md-6 col-lg-6">
+                    <a href=""><img src="img/ex1.jpg" alt="przyklad1" class="col-md-12 col-lg-6"></a>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <a href=""><img src="img/ex1.jpg" alt="przyklad1" class="col-md-12 col-lg-6"></a>
+                </div>
+            </div>
+        </div>
+  </div>
+  <div id="kontakt" class="kontakt py-5">
+      <h1 class="text-light text-uppercase text-center">KONTAKT</h1>
+    <div class="container text-light text-center">
+        <span> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+          </svg>  <br> merzie.kontakt@gmail.com</span>
+          <span> <br>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+              </svg> <br> Wkrótce
+          </span>
+    </div>
+  </div>
+
+
+  <footer class="mx-5 py-3 text-right">
+    <div class="row">
+        <div class="col-12 col-md">
+            <h1 class="display-5 text-uppercase">Merzie</h1>
+            <span class="lead">Jakub Słowik</span>
+            <small class="d-block mb-3 text-muted">&copy; 2020-2021</small>
+        </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
